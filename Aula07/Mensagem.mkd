@@ -1,0 +1,41 @@
+Exibir mensagens
+Olá pessoal, essa é a sétima aula do treinamento de Lógica e Algoritmos com Java. Vamos aprender a trabalhar com mensagens, através dos comandos: System.out.print(); e System.out.println();.
+
+Explicação sobre System.out.print e System.out.println em Java
+O System.out.print e o System.out.println são métodos usados para imprimir informações no console em Java. A principal diferença entre eles está no comportamento após a execução:
+
+System.out.print: Imprime o texto ou valor e não adiciona uma nova linha após a impressão.
+System.out.println: Imprime o texto ou valor e adiciona uma nova linha após a impressão, ou seja, o cursor se move para a próxima linha.
+Exemplo de System.out.print
+No exemplo abaixo, o método System.out.print imprime o texto na mesma linha do console, sem pular para a linha seguinte:
+
+        
+public class ExemploPrint {
+    public static void main(String[] args) {
+        System.out.print("Olá, ");
+        System.out.print("Mundo!");
+    }
+}
+        
+    
+Saída no console:
+Olá, Mundo!
+
+Exemplo de System.out.println
+No exemplo abaixo, o método System.out.println imprime o texto na linha atual e, após isso, pula para a próxima linha:
+
+        
+public class ExemploPrintln {
+    public static void main(String[] args) {
+        System.out.println("Olá, ");
+        System.out.println("Mundo!");
+    }
+}
+        
+    
+Saída no console:
+Olá,
+Mundo!
+
+Diferença entre print e println
+A principal diferença é que o System.out.println adiciona uma nova linha após imprimir o conteúdo, enquanto o System.out.print não. Isso significa que, se você usar o print em vez do println, o próximo conteúdo impresso aparecerá imediatamente ao lado do conteúdo anterior, na mesma linha.
