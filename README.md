@@ -1,71 +1,65 @@
-📘 Lógica e Algoritmos com Java — 2025
+📘 Meus Estudos — Lógica e Algoritmos com Java (2025)
 
-Curso de Lógica e Algoritmos com Java ministrado por Ralf Lima, focado em fundamentos de programação, estruturas de controle, coleções e construção de um projeto prático em Java.
+Este repositório reúne meus estudos, anotações, exercícios e projetos práticos realizados durante o curso Lógica e Algoritmos com Java, ministrado por Ralf Lima em 2025.
 
-Este repositório contém anotações, exemplos de código e exercícios desenvolvidos ao longo das aulas.
+O objetivo deste material é consolidar o aprendizado em lógica de programação e nos fundamentos da linguagem Java, servindo como base para estudos mais avançados e projetos futuros.
 
-🎯 Objetivo do Curso
+🎯 Objetivo dos Estudos
 
-Capacitar o aluno a:
+Desenvolver raciocínio lógico
 
-Entender lógica de programação
+Aprender os fundamentos da programação em Java
 
-Desenvolver algoritmos em Java
+Praticar estruturas de decisão e repetição
 
-Trabalhar com estruturas de decisão e repetição
+Trabalhar com vetores, matrizes e coleções
 
-Manipular vetores, matrizes e coleções
+Aplicar conceitos em exercícios práticos
 
-Criar um projeto CRUD simples
+Desenvolver um projeto CRUD simples em Java
 
-Preparar base sólida para estudos avançados em Java
+Criar uma base sólida para evolução na área de desenvolvimento
 
 🛠️ Tecnologias Utilizadas
 
-Java (JDK 17+ recomendado)
+Java (JDK 17 ou superior)
 
 Visual Studio Code
 
 Git & GitHub
 
-Terminal / Prompt de comando
+Terminal / Prompt de Comando
 
-📂 Estrutura do Repositório (sugestão)
+📂 Organização do Repositório
 📦 logica-algoritmos-java
- ┣ 📂 aulas
- ┃ ┣ aula01-introducao
- ┃ ┣ aula02-conceitos
- ┃ ┣ ...
- ┃ ┗ aula51-consideracoes-finais
- ┣ 📂 exercicios
- ┃ ┣ exercicio01
- ┃ ┣ exercicio02
- ┃ ┗ ...
- ┣ 📂 projeto-crud
+ ┣ 📂 aulas          → exemplos e códigos vistos em aula
+ ┣ 📂 exercicios     → resolução dos exercícios propostos
+ ┣ 📂 projeto-crud   → projeto final do curso
  ┣ 📄 README.md
 
-📚 Conteúdo Programático
+
+A organização pode evoluir conforme o avanço dos estudos.
+
+📚 Conteúdo Estudado
 🔹 Fundamentos
 
-Introdução
+Introdução à lógica de programação
 
 Conceitos básicos
 
-Instalação do JDK
+Instalação e configuração do JDK
 
-Instalação do VS Code
+Configuração do ambiente de desenvolvimento (VS Code)
 
-Configuração do ambiente
-
-Estrutura de classes
+Estrutura de classes em Java
 
 Exibição de mensagens
 
-Variáveis
+Variáveis e constantes
 
 Concatenação
 
-Classe Scanner
+Entrada de dados com Scanner
 
 🔹 Operadores
 
@@ -75,11 +69,9 @@ Operadores relacionais
 
 Operadores lógicos
 
-Constantes
-
 🔹 Estruturas de Decisão
 
-Condicional if/else
+if / else
 
 Operador ternário
 
@@ -103,43 +95,17 @@ forEach
 
 Matrizes
 
-🔹 Exercícios
+🔹 Exercícios Práticos
 
-Considerações iniciais
-
-Configuração de projeto
-
-Exercício 01
-
-Exercício 02
-
-Exercício 03
-
-Exercício 04
-
-Exercício 05
-
-Exercício 06
-
-Exercício 07
-
-Exercício 08
-
-Exercício 09
-
-Exercício 10
-
-Exercício 11
-
-Exercício 12
+Exercícios do 01 ao 12
 
 Exercícios extras
 
-🔹 Tópicos Avançados
+Reforço de lógica e fixação dos conceitos
 
-Configuração de projeto
+🔹 Conteúdos Complementares
 
-Tratamento de erros
+Tratamento de erros (exceptions)
 
 ArrayList
 
@@ -157,9 +123,9 @@ JOptionPane
 
 🔹 Projeto Final
 
-Projeto CRUD em Java
+Desenvolvimento de um CRUD em Java
 
-Considerações finais
+Aplicação prática dos conceitos aprendidos
 
 ▶️ Como Executar os Códigos
 
@@ -168,12 +134,12 @@ Clone o repositório:
 git clone https://github.com/seu-usuario/logica-algoritmos-java.git
 
 
-Entre na pasta do projeto:
+Acesse a pasta do projeto:
 
 cd logica-algoritmos-java
 
 
-Compile o arquivo Java:
+Compile o código:
 
 javac NomeDoArquivo.java
 
@@ -182,28 +148,17 @@ Execute:
 
 java NomeDoArquivo
 
-🧠 Pré-requisitos
+🧠 Observações Pessoais
 
-Lógica básica de informática
+Este repositório faz parte do meu processo de aprendizado
 
-Vontade de aprender 😄
+O código pode sofrer melhorias e refatorações ao longo do tempo
 
-Java JDK instalado corretamente
+Alguns exemplos são simples por serem focados em lógica
 
-✍️ Autor do Curso
+Comentários no código ajudam a reforçar o entendimento
 
-Ralf Lima
-Curso: Lógica e Algoritmos com Java
+🎓 Curso
 
-📌 Observações
-
-Este repositório tem fins educacionais.
-Sinta-se à vontade para:
-
-Estudar
-
-Modificar
-
-Evoluir os exemplos
-
-Criar novos projetos a partir deste conteúdo
+Lógica e Algoritmos com Java — 2025
+Instrutor: Ralf Lima
