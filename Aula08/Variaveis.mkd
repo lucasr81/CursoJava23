@@ -1,0 +1,75 @@
+📌 O que são Variáveis em Java
+
+Em Java, as variáveis são usadas para armazenar dados temporários na memória durante a execução do programa.
+Elas podem armazenar diferentes tipos de valores, como:
+
+Números inteiros
+
+Números decimais
+
+Textos
+
+Valores lógicos (verdadeiro ou falso)
+
+A definição de uma variável inclui o tipo de dado e o nome da variável.
+
+🧱 Estrutura de declaração de uma variável
+tipo nomeDaVariavel;
+
+🧪 Exemplo de uso de variáveis
+
+No exemplo abaixo, declaramos e inicializamos variáveis com diferentes tipos de dados:
+
+public class ExemplosVariaveis {
+    public static void main(String[] args) {
+        int idade = 25;             // Variável do tipo inteiro
+        double salario = 1500.50;   // Variável do tipo decimal
+        boolean isAtivo = true;     // Variável do tipo booleano
+        String nome = "João";       // Variável do tipo texto (String)
+
+        // Exibindo os valores das variáveis
+        System.out.println("Idade: " + idade);
+        System.out.println("Salário: " + salario);
+        System.out.println("Está ativo? " + isAtivo);
+        System.out.println("Nome: " + nome);
+    }
+}
+
+📖 Explicação do exemplo
+
+O código acima cria variáveis de diferentes tipos:
+
+int → números inteiros (exemplo: idade)
+
+double → números decimais (exemplo: salario)
+
+boolean → valores verdadeiro ou falso (exemplo: isAtivo)
+
+String → textos (exemplo: nome)
+
+📊 Tipos de Variáveis em Java
+Tipo	Descrição	Tamanho	Exemplo
+byte	Número inteiro pequeno, entre -128 e 127	1 byte	byte idade = 25;
+short	Número inteiro médio, entre -32.768 e 32.767	2 bytes	short temperatura = 20;
+int	Número inteiro, entre -2³¹ e 2³¹-1	4 bytes	int idade = 25;
+long	Número inteiro grande, entre -2⁶³ e 2⁶³-1	8 bytes	long populacao = 7800000000L;
+float	Número decimal de precisão simples	4 bytes	float preco = 19.99f;
+double	Número decimal de precisão dupla	8 bytes	double salario = 1500.50;
+char	Um único caractere ('a', '1', '#')	2 bytes	char letra = 'A';
+boolean	Valor lógico: verdadeiro ou falso	1 byte	boolean isAtivo = true;
+String	Sequência de caracteres (texto)	Depende do tamanho	String nome = "João";
+Object	Classe raiz de todas as classes em Java	Depende do objeto	Object obj = new Object();
+Array	Coleção de elementos do mesmo tipo	Depende do tipo e tamanho	int[] numeros = {1, 2, 3, 4};
+✅ Conclusão
+
+As variáveis em Java são fundamentais para armazenar dados temporários e manipulá-los durante a execução de um programa.
+
+Escolher o tipo de variável correto é essencial para garantir:
+
+Eficiência
+
+Precisão
+
+Clareza do código
+
+Os exemplos apresentados mostram os tipos mais utilizados, como inteiros, decimais, booleanos, textos e caracteres.
