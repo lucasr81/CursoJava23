@@ -1,0 +1,29 @@
+Estrutura do projeto
+Olá pessoal, essa é a sexta aula do treinamento de Lógica e Algoritmos.
+
+Nessa aula vamos aprender como estruturar nossas classes.
+
+Estrutura1: Com o método public static void main
+A estrutura abaixo é a forma tradicional de definir a classe principal de um programa Java, com o método public static void main. O método public static void main é o ponto de entrada principal em um programa Java, sendo executado automaticamente ao rodar o código. A palavra-chave public indica que o método é acessível de fora da classe, static significa que ele pode ser chamado sem a necessidade de instanciar um objeto da classe, e void indica que o método não retorna valor algum.
+
+        
+public class Estrutura1 {
+    public static void main(String[] args) {
+        // Seu código aqui
+    }
+}
+        
+    
+Neste exemplo, a classe Estrutura1 possui o método main definido como public static void main. Quando você executar este código, o programa irá imprimir a mensagem "Olá, Mundo!" na tela.
+
+Estrutura2: Com o método void main
+A segunda estrutura mostra como o método main pode ser definido sem a palavra-chave static, ou seja, como um método de instância.
+
+No entanto, a partir do Java 21+, utilizar void main() é uma estrutura válida e amplamente utilizada. Nesse caso, para executar o método main, é necessário criar uma instância da classe antes de chamar o método. Embora essa abordagem não fosse comum nas versões anteriores do Java, ela se tornou uma prática aceitável e muito utilizada nas versões mais recentes.
+
+        
+public class Estrutura2 {
+    void main() {
+        // Seu código aqui
+    }
+}
