@@ -1,29 +1,92 @@
-Estrutura do projeto
-Olá pessoal, essa é a sexta aula do treinamento de Lógica e Algoritmos.
+# Estrutura do Projeto em Java
 
-Nessa aula vamos aprender como estruturar nossas classes.
+## Introdução
 
-Estrutura1: Com o método public static void main
-A estrutura abaixo é a forma tradicional de definir a classe principal de um programa Java, com o método public static void main. O método public static void main é o ponto de entrada principal em um programa Java, sendo executado automaticamente ao rodar o código. A palavra-chave public indica que o método é acessível de fora da classe, static significa que ele pode ser chamado sem a necessidade de instanciar um objeto da classe, e void indica que o método não retorna valor algum.
+Olá pessoal, esta é a **sexta aula** do treinamento de **Lógica e Algoritmos**.
 
-        
+Nesta aula, vamos aprender **como estruturar classes em Java**, entendendo as diferentes formas de definir o método `main`, que é o **ponto de entrada** de uma aplicação Java.
+
+---
+
+## Estrutura 1 — `public static void main`
+
+Esta é a **forma tradicional e mais conhecida** de definir a classe principal de um programa Java.
+
+O método `public static void main` é executado automaticamente quando o programa é iniciado.
+
+### Explicação das palavras-chave
+
+* `public`
+  Permite que o método seja acessado pela JVM (Java Virtual Machine).
+
+* `static`
+  Permite que o método seja executado sem a necessidade de criar um objeto da classe.
+
+* `void`
+  Indica que o método não retorna nenhum valor.
+
+* `String[] args`
+  Permite receber argumentos passados pela linha de comando.
+
+### Exemplo de código
+
+```java
 public class Estrutura1 {
     public static void main(String[] args) {
         // Seu código aqui
     }
 }
-        
-    
-Neste exemplo, a classe Estrutura1 possui o método main definido como public static void main. Quando você executar este código, o programa irá imprimir a mensagem "Olá, Mundo!" na tela.
+```
 
-Estrutura2: Com o método void main
-A segunda estrutura mostra como o método main pode ser definido sem a palavra-chave static, ou seja, como um método de instância.
+### Observação
 
-No entanto, a partir do Java 21+, utilizar void main() é uma estrutura válida e amplamente utilizada. Nesse caso, para executar o método main, é necessário criar uma instância da classe antes de chamar o método. Embora essa abordagem não fosse comum nas versões anteriores do Java, ela se tornou uma prática aceitável e muito utilizada nas versões mais recentes.
+Nesta estrutura, **não é necessário instanciar a classe**. Ao executar o programa, a JVM localiza automaticamente o método `main` e inicia a execução por ele.
 
-        
+---
+
+## Estrutura 2 — `void main`
+
+A segunda estrutura apresenta uma forma **mais moderna** de definir o método `main`, **sem o modificador `static`**.
+
+A partir do **Java 21**, o uso de `void main()` passou a ser **válido e oficialmente suportado**, tornando essa abordagem cada vez mais comum.
+
+### Características dessa estrutura
+
+* O método `main` é um **método de instância**
+* É necessário **criar um objeto da classe** para que o método seja executado
+* Essa forma não era utilizada nas versões antigas do Java
+
+### Exemplo de código
+
+```java
 public class Estrutura2 {
     void main() {
         // Seu código aqui
     }
 }
+```
+
+### Observação importante
+
+Mesmo sendo válida nas versões mais recentes do Java, essa estrutura **ainda não é a mais utilizada no mercado**, onde o padrão `public static void main` continua predominante.
+
+---
+
+## Comparação entre as Estruturas
+
+| Estrutura                 | Necessita instância | Compatibilidade     | Uso no mercado |
+| ------------------------- | ------------------- | ------------------- | -------------- |
+| `public static void main` | Não                 | Todas as versões    | Muito comum    |
+| `void main`               | Sim                 | Java 21 ou superior | Em crescimento |
+
+---
+
+## Atenção
+
+Entender as diferentes formas de estruturar o método `main` é fundamental para compreender **como um programa Java inicia sua execução**.
+
+Para quem está começando, o recomendado é **dominar primeiro a estrutura tradicional**, garantindo compatibilidade e facilidade de aprendizado. As estruturas mais modernas podem ser exploradas conforme a evolução nos estudos e na linguagem.
+
+```java
+System.out.println("Todo programa Java começa pelo método main.");
+```
