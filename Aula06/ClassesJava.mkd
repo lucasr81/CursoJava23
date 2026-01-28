@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Olá pessoal, esta é a **sexta aula** do treinamento de **Lógica e Algoritmos**.
+Aula de **Lógica e Algoritmos**.
 
 Nesta aula, vamos aprender **como estruturar classes em Java**, entendendo as diferentes formas de definir o método `main`, que é o **ponto de entrada** de uma aplicação Java.
 
