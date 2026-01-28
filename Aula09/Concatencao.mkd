@@ -1,0 +1,118 @@
+package Aula09;
+
+public Exemplos de Concatenação de Strings em Java
+A concatenação de strings em Java é a operação de unir duas ou mais strings em uma única. Existem diversas formas de realizar essa concatenação, e cada uma pode ser útil em diferentes situações. Aqui estão alguns exemplos com estruturas diferentes de concatenação:
+
+1. Usando o Operador +
+O operador + é a maneira mais comum de concatenar strings em Java. Ele permite juntar duas ou mais strings diretamente.
+
+        
+public class ConcatenacaoOperador {
+    public static void main(String[] args) {
+        String nome = "João";
+        String saudacao = "Olá, " + nome + "!";
+        System.out.println(saudacao);
+    }
+}
+        
+    
+Saída: Olá, João!
+
+2. Usando o Método concat()
+O método concat() da classe String é uma forma alternativa de concatenar strings em Java. Ele permite concatenar duas strings, mas é mais verboso que o operador +.
+
+        
+public class ConcatenacaoConcat {
+    public static void main(String[] args) {
+        String nome = "João";
+        String saudacao = "Olá, ".concat(nome).concat("!");
+        System.out.println(saudacao);
+    }
+}
+        
+    
+Saída: Olá, João!
+
+3. Usando o StringBuilder
+Quando a concatenação de strings precisa ser feita repetidamente em um loop ou em um cenário com muitas operações de concatenação, o StringBuilder é recomendado por ser mais eficiente em termos de desempenho.
+
+        
+public class ConcatenacaoStringBuilder {
+    public static void main(String[] args) {
+        String nome = "João";
+        StringBuilder saudacao = new StringBuilder("Olá, ");
+        saudacao.append(nome).append("!");
+        System.out.println(saudacao.toString());
+    }
+}
+        
+    
+Saída: Olá, João!
+
+4. Usando o Método String.format()
+O método String.format() permite criar strings formatadas, o que é útil quando você precisa inserir variáveis de forma organizada em uma string.
+
+        
+public class ConcatenacaoStringFormat {
+    public static void main(String[] args) {
+        String nome = "João";
+        String saudacao = String.format("Olá, %s!", nome);
+        System.out.println(saudacao);
+    }
+}
+        
+    
+Saída: Olá, João!
+
+5. Usando o Método System.out.printf()
+O System.out.printf() é similar ao String.format(), mas imprime diretamente no console, sem precisar armazenar a string formatada em uma variável.
+
+        
+public class ConcatenacaoPrintf {
+    public static void main(String[] args) {
+        String nome = "João";
+        System.out.printf("Olá, %s!", nome);
+    }
+}
+        
+    
+Saída: Olá, João!
+
+6. Usando a Interpolação de Strings (Java 15+)
+A interpolação de strings foi introduzida no Java 15 com a Text Blocks. Isso permite que você use o sinal de $ para embutir variáveis diretamente em strings. Isso torna o código mais legível.
+
+        
+public class ConcatenacaoInterpolacao {
+    public static void main(String[] args) {
+        String nome = "João";
+        String saudacao = String.format("Olá, %s!", nome); 
+        System.out.println(saudacao);
+    }
+}
+        
+    
+Saída: Olá, João!
+
+7. Usando String.join()
+O método String.join() é útil para concatenar várias strings com um delimitador específico. Ele pode ser usado quando você tem uma lista de strings e deseja concatená-las com um separador.
+
+        
+import java.util.Arrays;
+
+public class ConcatenacaoJoin {
+    public static void main(String[] args) {
+        String[] palavras = {"Olá", "João", "!"};
+        String saudacao = String.join(" ", palavras);
+        System.out.println(saudacao);
+    }
+}
+        
+    
+Saída: Olá João !
+
+Conclusão
+A concatenação de strings em Java pode ser feita de várias maneiras, dependendo do contexto e da necessidade. Para operações simples e poucas concatenações, o operador + é o mais comum. Para situações que exigem eficiência, como em loops ou grandes volumes de concatenação, o StringBuilder ou StringBuffer são mais recomendados.
+
+Acompanhe essa aula no YouTube: {
+    
+}
